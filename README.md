@@ -11,8 +11,8 @@ Topics:
 
 **NOTE ⚠️ - You will NOT need to finish this project after React Router I. Start working on it now, then you can finish it up after the next module - React Router II.**
 
-- [ ] **Fork** this repository, then clone your fork.
-- [ ] **NOTE** You have 2 servers that you will be running here so read these instructions carefully.
+- [x] **Fork** this repository, then clone your fork.
+- [x] **NOTE** You have 2 servers that you will be running here so read these instructions carefully.
 - [ ] **In the root of this directory**: Run `npm install` to download dependencies.
 - [ ] Run the server using `npm start` or `node server.js`. (Don't worry too much about this process, you'll get used to doing this and it will be explained more in the future).
 - [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
