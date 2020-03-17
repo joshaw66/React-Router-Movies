@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const Movie = (props) => {
-  const [movie, setMovie] = useState();
+  const [movie, setMovie] = useState([]);
  
-  useEffect(() => {
-    const id = props.match.params.movieID;
+  useEffect((movie) => {
+    const id = movie.id;
 
        axios
         .get(`http://localhost:5000/api/movies/${id}`)
@@ -16,7 +16,7 @@ const Movie = (props) => {
           console.error(error);
         });
 
-    },[props.match.params.movieID]);
+    },[]);
   
   // Uncomment this only when you have moved on to the stretch goals
   // const saveMovie = () => {
